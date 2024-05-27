@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+}
+
+.nav{
+    width: 1518px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a{
+    padding-left: 50px;
+}
+
+.nav a:hover{
+    color: cadetblue;
+}
+
+.search{
+    float: right;
+}
+
+.search i{
+    color: red;
+}
+.contact{
+    float: right;
+}
+
+.contact i{
+    color:crimson;
+    padding-left: 10px;
+}
+
+.contact i:hover{
+    color: cadetblue;
+}
+
+.account{
+    float: right;
+}
+
+.account i{
+    color:red;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.account i:hover{
+    color: cadetblue;
+}
+
+.nav a{
+    padding-right: 25px;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+
+.add{
+    margin: 1px;
+    width: 1518px;
+    height: 370px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add img:hover{
+    transform: scale(0.9);
+}
+
+.add p{
+    color:green;
+    font-size: 25px;
+    padding-top: 330px;
+    padding-left: 10px;
+    }
+
+
+.gif{
+    padding-top: 320px;
+    padding-left: 10px;
+}
+
+.chat-img{
+    margin: 0px;
+    padding: 0px;
+    width: 1518px;
+    height: 250px;
+    text-align: center;
+    background-color: black;
+}
+
+.chat{
+     width: 1518px;
+     height: 45px;
+     background-color: black;
+     color: cadetblue;
+     text-align: center;
+     padding-top: 18px;
+}
+
+.chat input{
+    font-size: 18px;
+}
+
+.article{
+    width: 1518px;
+    height: 220px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+
+.link{
+    width: 1518px;
+    height: 30px;
+    background-color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link i{
+    color: red;
+    padding-right: 24px;
+}
+
+.link i:hover{
+    color: cadetblue;
+    transform: scale(0.9);
+}
+
+.end{
+    width: 1518px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end p{
+    font-size: 30px;
+    color:cadetblue;
+}
