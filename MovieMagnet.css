@@ -1,0 +1,445 @@
+body{
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+    background-color: black;
+}
+
+.logo p{
+    width: 1500px;
+    height: 25px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.logo p::first-letter{
+    color: orange;
+}
+
+.container{
+         width: 1500px;
+         height: 800px;
+         background-image: url('MM7\(back\).jpg');
+         background-position: center;
+         background-repeat: no-repeat;    
+         background-size: 1500px 800px;
+}
+
+.Nav-left{
+    width: 1500px;
+    height: 50px;
+    float: left;
+    padding-top: 10px;
+    background-color: transparent;
+}
+
+.Nav-left{
+   position:sticky;
+   top: 0px;
+   background-color: black;
+}
+
+.Nav-left i{
+    font-size: 30px;
+    color: red;
+}
+
+.Nav-left,a{
+    padding-right: 25px;
+}
+
+.Nav-right,a{
+    padding-left: 25px;
+}
+
+.Nav-right,a{
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Nav-left span a{
+    color: red;
+}
+
+.Nav-left,a:hover{
+    color: red;
+}
+
+.Nav-left,select:hover{
+    color: red;
+}
+
+
+.Nav-right{
+    float: right;
+    padding-top: 10px;
+}
+
+.Nav-right i{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.Nav-right span i{
+    color: red;
+}
+
+.Nav-right i:hover{
+    color: red;
+}
+
+.small-text{
+    width: 1500px;
+    height: 55px;
+}
+
+.small-text p{
+    color: red;
+    font-weight: bold;
+    padding-left: 220px;
+    padding-top: 100px;
+    font-size: 18px;
+}
+
+.big-text{
+    width: 1500px;
+    height: 130px;
+}
+
+.big-text p{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding-left: 220px;
+}
+
+.rating-container{
+    width: 1500px;
+    height: 60px;
+    padding-left: 220px;
+}
+
+.type{
+    float: left;
+    padding-right: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    color: red;
+    font-size: 18px;
+}
+
+.year{
+    float: left;
+    padding-right: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.rating{
+    width: 10px;
+    height: 30px;
+    float: left;
+    padding-inline: 15px;
+    padding-right: 28px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid greenyellow;
+    border-radius:50%;
+    border-width: 2px;
+    color: greenyellow;
+}
+
+.container-link{
+    width: 1500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    padding-top: 30px;
+}
+
+.link i{
+    font-size: 45px;
+    font-weight: bold;
+    color: red;
+}
+
+.link a{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+link,a:hover{
+    color: red;
+}
+
+.Movie-container{
+        width: 1500px;
+        height: 1230px;
+        background-color: white;
+}
+
+.Stream{
+    width: 1500px;
+}
+
+.Stream p{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.onlineshow{
+    width: 1500px;
+}
+
+.onlineshow p{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-left: 120px;
+}
+
+.gallery{
+    padding-left: 115px;
+}
+
+.gallery img{
+    padding-left: 5px;
+}
+
+.gallery i{
+    height: 45px;
+    width: 30px;
+    color: black;
+    font-size: 25px;
+    padding-right: 140px;
+    padding-left: 8px;
+}
+
+.gallery a{
+    color: red;
+    font-size: 20px;
+}
+
+.gallery a:hover{
+    color: greenyellow;
+}
+
+.gallery i:hover{
+    color:red;
+}
+
+.Feedback{
+    width: 1500px;
+    float: left;
+}
+
+.Feedback img{
+    padding-left: 45px;
+}
+
+.text{
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding-right: 45px;
+    padding-top: 200px;
+}
+
+
+.contact{
+    width: 1500px;
+    background-color: black;
+    float: right;
+}
+
+.contact p{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-img{
+    width: 1500px;
+    float: left;
+}
+
+.table{
+    float: right;
+    padding-right: 300px;
+    padding-top: 150px;
+}
+
+.table input{
+    width: 500px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.table select{
+    width: 500px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.table select:hover{
+    background-color: black;
+    color: greenyellow;
+}
+
+.table input:hover{
+    color: greenyellow;
+    background-color: black;
+}
+
+.user{
+    width: 1500px;
+    background-color: black;
+}
+
+.user p{
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.email{
+    padding-left: 400px;
+}
+
+.email input{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.email button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+
+.email input:hover{
+    background-color: black;
+    color: greenyellow;
+}
+
+.user-left{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-left p{
+    color: red;
+    font-size: 20px;
+}
+
+.user-left a{
+    color: white;
+}
+
+.user-left a:hover{
+    color: red;
+}
+
+.user-middle{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-middle p{
+    color: red;
+    font-size: 20px;
+}
+
+.user-middle a{
+    color: white;
+}
+
+.user-middle a:hover{
+    color: red;
+}
+
+.user-right p{
+    width: 1500px;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.user-right span{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wish{
+    width: 1500px;
+}
+
+.wish p{
+    color: greenyellow;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wish a{
+    color: greenyellow;
+}
+
+.wish a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
