@@ -1,0 +1,284 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    width: 1500px;
+    height: auto;
+}
+
+.menu{
+    width: 1500px;
+    height: 50px;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+
+.menu p{
+    float: left;
+    padding-left: 100px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu input{
+    float: left;
+    padding-right: 20px;
+    padding-top: 15px;
+    width: 500px;
+    height: 25px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+}
+
+.menu p,input{
+    padding-right: 20px;
+    margin-right: 5px;
+}
+
+.menu button{
+    float: right;
+    border: 0px solid white;
+    background-color: white;
+    padding-top: 2px;
+}
+
+.menu button a{
+    color: red;
+    text-decoration: none;
+    font-weight: 530;
+    font-size: 15px;
+}
+
+
+.menu a{
+    color: black;
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: 530;
+    font-size: 17px;
+    float: right;
+    padding-right: 15px;
+    margin-right: 5px;
+    padding-top: 10px;  
+}
+
+.Nav{
+    width: 1500px;
+    height: 50px;
+    background-color: white;
+}
+
+.Nav a{
+float: left;
+padding-right: 20px;
+padding-top: 5px;
+text-decoration: none;
+color:black;
+font-size: 17px;
+font-weight: 500;
+}
+
+.Nav-right a{
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.Nav a:hover{
+    color: gray;
+    font-size: 18px;
+}
+
+.Nav a::first-letter{
+    color: red;
+    font-size: 24px;
+}
+
+.image{
+    width: 1300px;
+    height: 300px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.Movies{
+  width: 1500px;
+  height: 420px;
+}
+
+.Movies p{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+}
+
+.Movies a{
+    padding-left: 100px;
+}
+
+.Movies img{
+    padding-left: 38px;
+}
+
+.text{
+    width: 1300px;
+    height: 225px;
+}
+
+.text img{
+    padding-left: 100px;
+}
+
+.event{
+    width: 1200px;
+    height: 390px;
+}
+
+.event p{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+}
+
+.event a{
+    padding-left: 100px;
+}
+
+.event img{
+    padding-left: 1px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.premier-video{
+    width: 1500px;
+    height: 500px;
+    background-color: rgb(33, 16, 16);
+    padding-top: 40px;
+}
+
+.premier-video a i{
+    font-size: 35px;
+    color: red;
+    padding-left: 100px;
+    float: left;
+}
+
+.premier-video p{
+    font-size: 20px;
+    color: white;
+    padding-left: 100px;
+    float: right;
+    padding-right: 1313px;
+}
+
+.premier-video h4{
+    color: white;
+    padding-left: 100px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.premier-video i,p:hover{
+    color: red;
+}
+
+.premier-watch{
+    padding-left: 100px;
+}
+
+.premier-watch img{
+    padding-left: 38px;
+}
+
+.container-sec{
+    padding: 0px;
+    margin: 0px;
+    width: 1500px;
+    height: auto;
+    background-color: white;
+}
+
+.link{
+    width: 1500px;
+    height: 250px;
+}
+
+.link p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 500;
+    padding-top: 40px;
+    color: white;
+}
+
+.link{
+   padding-left: 100px;
+   background-color: black;
+}
+
+.link button{
+    background-color: black;
+    color: white;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+}
+
+.link button a{
+    text-decoration: none;
+    color: white;
+}
+
+.link button a:hover{
+    color: red;
+}
+
+.Detail{
+    width: 1500px;
+    height: 830px;
+    font-size: 17px;
+    color: white;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.end{
+    width: 1500px;
+    height: 50px;
+    background-color: black;
+    text-align: right;
+}
+
+.end a{
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+.end a:hover{
+    color: red;
+    font-size: 22px;
+}
+
+.Cast{
+    width: 1500px;
+    height: 50px;
+    background-color: black;
+}
+
+.Cast{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    color: red;
+}
