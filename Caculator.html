@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./Calculator.css">
+</head>
+<body>
+    <script>
+        function Cal(Val){
+        document.getElementById("a").value +=Val;
+        }
+
+        function result(){
+            var x=document.getElementById("a").value;
+            var y=eval(x);
+            document.getElementById("a").value=y;
+        }
+
+        function erase(){
+            document.getElementById("a").value = " ";
+        }
+    </script>
+    <header>
+        <div class="container">
+            <div class="BGC">
+           <h1 class="title"> 匚 卂 ㄥ 匚 ㄩ ㄥ 卂 ㄒ ㄖ 尺 </h1>
+    </div>
+        <div class="calculator">
+            <table>
+<tr>
+    <th>
+        <input type="text" placeholder="Calculate" id="a"><button onclick="erase()">匚</button>
+    </th>
+</tr>
+    <tr>
+        <th>
+            <button onclick="Cal(1)">1</button>
+            <button onclick="Cal(2)">2</button>
+            <button onclick="Cal(3)">3</button>
+            <button onclick="Cal('+')">+</button>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button onclick="Cal(4)">4</button>
+            <button onclick="Cal(5)">5</button>
+            <button onclick="Cal(6)">6</button>
+            <button onclick="Cal('-')">-</button>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button onclick="Cal(7)">7</button>
+            <button onclick="Cal(8)">8</button>
+            <button onclick="Cal(9)">9</button>
+            <button onclick="Cal('*')">*</button>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button onclick="Cal(0)">0</button>
+            <button onclick="Cal('/')">/</button>
+            <button onclick="Cal('%')">%</button> 
+            <button onclick="result()">=</button>
+        </th>
+    </tr>
+  </table>
+</div>
+<div class="owner">
+<p>
+    Created By Khiladi
+</p>
+</div>
+        </div>
+    </header>
+</body>
+</html>
